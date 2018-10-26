@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.AboutUs">
+<include layout="@layout/header"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A truly local space with an artist flare."
+        android:layout_gravity="center_horizontal"
+         android:gravity="center_horizontal"
+
+        android:textAlignment="center"
+        android:layout_marginTop="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Great coffee,fresh fried rice, and"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="traditional javanese coffee, Pleasent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ambient with sooting warm vibe"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="www.eatapp.com.my"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16sp"
+        android:textColor="@color/pink"
+        android:layout_marginTop="30dp"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:background="@drawable/redbg"
+        android:text="Contact us"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:textColor="@color/white"/>
+</LinearLayout>

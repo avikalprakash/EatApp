@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.SettingsFrag">
+
+    <include layout="@layout/header" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="100dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingRight="20dp"
+        android:weightSum="2">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do not Disturb"
+            android:paddingLeft="40dp"
+            android:layout_weight="1"/>
+        <Spinner
+            android:id="@+id/spdonotdisturbsettingfrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:paddingRight="20dp"
+
+        android:weightSum="2">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notification Ringtone"
+            android:paddingLeft="40dp"
+            android:layout_weight="1"/>
+        <Spinner
+            android:id="@+id/spnotificationsettingfrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:paddingRight="20dp"
+
+        android:weightSum="2">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Language"
+            android:paddingLeft="40dp"
+            android:layout_weight="1"/>
+        <Spinner
+            android:id="@+id/spchangelanguagesettingfrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:paddingRight="20dp"
+
+
+        android:weightSum="2">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Term of use"
+            android:paddingLeft="40dp"
+            android:layout_weight="1"/>
+        <Spinner
+            android:id="@+id/sptermofusesettingfrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:paddingRight="20dp"
+
+        android:weightSum="2">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Privacy Policy"
+            android:paddingLeft="40dp"
+            android:layout_weight="1"/>
+        <Spinner
+            android:id="@+id/spprivacypolicysettingfrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:paddingRight="20dp"
+
+        android:weightSum="2">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tell a Friend"
+            android:paddingLeft="40dp"
+            android:layout_weight="1"/>
+        <Spinner
+            android:id="@+id/sptellafriendsettingfrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+
+            android:layout_weight="1"/>
+    </LinearLayout>
+<Button
+    android:id="@+id/btcontactsetting"
+    android:layout_width="200dp"
+    android:layout_height="45dp"
+    android:layout_gravity="center_horizontal"
+    android:text="Contact Us"
+    android:textColor="#ffffff"
+    android:layout_marginTop="40dp"
+
+    android:background="@drawable/redbg"/>
+</LinearLayout>
+</LinearLayout>

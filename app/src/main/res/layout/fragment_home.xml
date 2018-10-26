@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/svhome"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bnhome"
+        android:layout_width="match_parent"
+        tools:context=".fragments.Home">
+
+    >
+
+
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="30dp"
+            >
+            <!--linear layout for search and merchant-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <ImageView
+                        android:id="@+id/ivsearchhome"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/search"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Search"
+                        android:gravity="center"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/merchant"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Merchants"
+                        android:gravity="center"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <!--    ,,,,,,,,,,,,,,,,,,,-->
+
+            <!-- linear layout for category and best deals-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="12dp"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/category"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Categories"
+                        android:gravity="center"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/deal"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Best Deals"
+                        android:gravity="center"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <!-- ,,,,,,,,,,,,,,,,,-->
+
+            <!-- linear layout for notification and transaction-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="12dp"
+
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <ImageView
+                        android:id="@+id/ivnotificationshome"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/notify"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Notification"
+                        android:gravity="center"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/ivtransactionhome"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/transaction"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Transaction"
+                        android:gravity="center"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <!-- ,,,,,,,,,,,,,,,,,,,,,-->
+
+
+
+            <!-- linear layout for Payment qr and news-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="12dp"
+
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <ImageView
+                        android:id="@+id/ivpaymentqrhome"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/paymentqr"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Payment Qr"
+                        android:gravity="center"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/ivnewsupdatehome"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/news"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="News Updates"
+                        android:gravity="center"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <!-- ,,,,,,,,,,,,,,,,,,,,-->
+
+
+
+            <!-- linear layout for referal info refrel qr-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="12dp"
+
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <ImageView
+                        android:id="@+id/ivreferalinfohome"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/referalinfo"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Referral Info"
+                        android:gravity="center"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/ivreferalqrhome"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/referalqr"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Referral Qr"
+                        android:gravity="center"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <!-- ,,,,,,,,,,,,,,,,,,,,,,,-->
+
+            <!-- Linear layout for walet and profile-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="12dp"
+
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/mywalet"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="My Wallet"
+                        android:gravity="center"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/ivprofilehome"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/myprofile"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profile"
+                        android:gravity="center"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <!-- ,,,,,,,,,,,,,,,,,,-->
+
+        </LinearLayout>
+
+    </ScrollView>
+

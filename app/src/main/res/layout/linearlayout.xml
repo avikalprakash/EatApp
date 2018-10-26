@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:id="@+id/relclick"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/i"
+        android:layout_margin="10dp"
+        android:background="#ffffff">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="fitXY"
+            android:id="@+id/grid_image"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/grid_image"
+            android:text="Spicy Chicken Roast for"
+            android:layout_marginLeft="5dp"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:maxLength="25"
+            android:id="@+id/griddetail_text"
+            android:textColor="#bc9842"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_alignParentRight="true"
+            android:text="Spicy Chicken Roast for"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/griddetail_text"
+            android:textSize="15dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/datetxt"
+            android:textColor="#bc9842"
+
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <color name="colorPrimary">#FF0033</color>
+
+    <color name="colorPrimaryDark">#D7D7D7</color>
+
+    <color name="colorAccent">#FF4081</color>
+    <color name="red">#FF0033</color>
+    <color name="spinnerbg">#a69f9f</color>
+    <color name="white">#ffffff</color>
+    <color name="linearlayoutcolor">#98f4f3f3</color>
+    <color name="grey">#545151</color>
+    <color name="darkgrey">#D7D7D7</color>
+    <color name="pink">#FD9CAE</color>
+    <color name="green">#58DB77</color>
+    <color name="dialogcolor">#F0F0F0</color>
+</resources>

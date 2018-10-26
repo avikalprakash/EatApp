@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/navinstruction"
+    android:icon="@drawable/info"
+    android:title="instruction"
+    />
+    <item
+        android:id="@+id/navsetting"
+        android:icon="@drawable/settings"
+        android:title="setting"/>
+<item android:id="@+id/navcalendar"
+    android:title="Calendar"
+    android:icon="@drawable/calendar"/>
+    <item
+        android:id="@+id/navfeed"
+        android:title="Feedback"
+        android:icon="@drawable/chat"/>
+    <item android:id="@+id/navlogout"
+        android:icon="@drawable/logout"
+        android:title="logout"/>
+</menu>
